@@ -1,0 +1,40 @@
+# List of SDK dependencies of this app, this information is also included in an encrypted form in the APK.
+# For more information visit: https://d.android.com/r/tools/dependency-metadata
+
+library {
+  maven_library {
+    artifactId: "billing-5.2.1"
+  }
+  digests {
+    sha256: "\366 \2532\215\376F\224\243\321Pl#\224\017\']\304#|(\241\r|\005\255\307\302.\206\b\233"
+  }
+}
+library {
+  maven_library {
+    artifactId: "common"
+  }
+  digests {
+    sha256: "i\006\370Ya1@5 DuV\"\334\3655\214\367\262U\252\360h\313\021\207\260\265!G\350\243"
+  }
+}
+library {
+  digests {
+    sha256: "\003\232\264\210\267\034\177\206\222\352\202\365\375\264\207\265~7\320L)\r\202\217J\002\267\0340Hm\003"
+  }
+}
+module_dependencies {
+  module_name: "base"
+  dependency_index: 0
+  dependency_index: 1
+  dependency_index: 2
+}
+repositories {
+  maven_repo {
+    url: "https://dl.google.com/dl/android/maven2/"
+  }
+}
+repositories {
+  maven_repo {
+    url: "https://repo.maven.apache.org/maven2/"
+  }
+}
